@@ -1,0 +1,29 @@
+{
+  "name": "@sinaissociais/ada",
+  "version": "0.0.0",
+  "description": "Ada is a Component Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinaissociais/ada.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinaissociais/ada/issues"
+  },
+  "homepage": "https://github.com/sinaissociais/ada#readme",
+  "dependencies": {
+    "react": ">=16.12.0",
+    "react-dom": ">=16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.1",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.6.3"
+  }
+}
