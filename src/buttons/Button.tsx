@@ -1,7 +1,18 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const Botao = styled.button`
+  background: transparent;
+  border: 2px solid;
+
+  &:hover {
+    background-color: palegoldenrod;
+    color: white;
+  }
+`
 
 export const Button = () => {
   return (
-    <div>Meu Botãozinho</div>
+    <Botao>Meu Botãozinho</Botao>
   )
 };
